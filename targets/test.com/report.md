@@ -15,3 +15,11 @@
 - Outputs:
   - endpoints/all_endpoints.txt
   - endpoints/params.txt
+
+## Endpoint Categorization
+Endpoints grouped by attack surface:
+- Auth → auth.txt
+- API → api.txt
+- Upload → upload.txt
+- Redirect → redirect.txt
+- Admin → admin.txt
