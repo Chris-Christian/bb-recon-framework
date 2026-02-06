@@ -19,7 +19,7 @@ fi
 
 echo "[*] Checking live hosts with httpx"
 
-cat "$SUBS" | httpx -silent > "$OUT"
+cat "$SUBS" | ~/go/bin/httpx -silent > "$OUT"
 
 COUNT=$(wc -l < "$OUT")
 echo "[+] Found $COUNT live hosts"
