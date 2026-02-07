@@ -23,3 +23,11 @@ Endpoints grouped by attack surface:
 - Upload → upload.txt
 - Redirect → redirect.txt
 - Admin → admin.txt
+
+## Manual Testing Checklist
+Auto-generated structured testing guide:
+- Authentication
+- IDOR / Access Control
+- Injection
+- File Upload
+- Redirect / SSRF
