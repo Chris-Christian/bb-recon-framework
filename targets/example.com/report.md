@@ -31,3 +31,6 @@ Auto-generated structured testing guide:
 - Injection
 - File Upload
 - Redirect / SSRF
+
+## Vulnerability Hypotheses
+Framework predicts likely vulnerability classes based on discovered attack surface.
