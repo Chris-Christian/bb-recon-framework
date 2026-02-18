@@ -112,6 +112,6 @@ Use only on systems you own or have explicit permission to test.
 ## Author
 
 **Chris Christian**  
-Cybersecurity • Bug Bounty • Penetration Testing
+Cybersecurity | Bug Bounty | Penetration Testing
 
 ---
