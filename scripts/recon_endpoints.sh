@@ -21,7 +21,7 @@ mkdir -p "$ENDPOINT_DIR"
 
 echo "[*] Collecting endpoints using gau"
 
-cat "$LIVE" | gau > "$ENDPOINT_DIR/all_endpoints.txt"
+cat "$LIVE" | timeout 300 gau --threads 5 --providers wayback,otx,urlscan > "$ENDPOINT_DIR/all_endpoints.txt"
 
 grep "?" "$ENDPOINT_DIR/all_endpoints.txt" | sort -u > "$ENDPOINT_DIR/params.txt"
 
